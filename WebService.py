@@ -4,8 +4,8 @@ from urllib3 import PoolManager, util
 
 class WebService(object):
 	baseUrl = 'https://api.cloudns.net/dns/'
-	authId = '3581'
-	authPassword = 'AtQ|m73{j87HKJ~7!'
+	authId = '0000'
+	authPassword = 'password'
 	log = None
 
 	def __init__(self, config = None, flash = None, workers = None, log = None):
